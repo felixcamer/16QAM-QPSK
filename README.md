@@ -20,11 +20,15 @@ Representation frequentielle:
 
 Montage du 16 QAM:
 
-![pp13](https://user-images.githubusercontent.com/22806623/190602887-ba0146c1-5a20-4040-b742-90b7d22586b6.JPG)
+![p20](https://user-images.githubusercontent.com/22806623/190602905-1027df80-62c9-4312-a0cb-a4deef61070a.png)
+
+
 
 
 Representation frequentielle:
-![pp14](https://user-images.githubusercontent.com/22806623/190602895-1ee761bc-7801-4566-aa5e-f922a2c2af99.JPG)
+
+![pp13](https://user-images.githubusercontent.com/22806623/190602887-ba0146c1-5a20-4040-b742-90b7d22586b6.JPG)
 
 Representation temporelle:
-![p20](https://user-images.githubusercontent.com/22806623/190602905-1027df80-62c9-4312-a0cb-a4deef61070a.png)
+
+![pp14](https://user-images.githubusercontent.com/22806623/190602895-1ee761bc-7801-4566-aa5e-f922a2c2af99.JPG)
