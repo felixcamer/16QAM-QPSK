@@ -1,0 +1,37 @@
+Circuit: * C:\Users\Felix\Desktop\Cours\system num pour appli\Kit_etudiant_2021\Kit_etudiant_2021\projet.asc
+
+Laplace(x3:b1): Window=2.1346737ms Nfft=1024
+Laplace(x1:b1): Window=2.1346737ms Nfft=1024
+Limiting rise time of source v:x2:2 to 1.25e-007
+Limiting fall time of source v:x2:2 to 1.25e-007
+Limiting rise time of source v:x2:1 to 2.5e-007
+Limiting fall time of source v:x2:1 to 2.5e-007
+WARNING: Less than two connections to node IZ.  This node is used by B:X1:1.
+WARNING: Less than two connections to node QZ.  This node is used by B:X3:1.
+WARNING: Less than two connections to node NC_22.  This node is used by L:U4:1.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.00100083
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 0.00100083
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 23.4848%

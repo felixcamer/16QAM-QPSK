@@ -1,0 +1,25 @@
+Circuit: * Y:\Boulot\Enseignements\M1_ESET_STAE_EMEAE2C1\TPs\Kit_etudiant_2019\source_signal_random_NRZ4_test.asc
+
+Limiting rise time of source v:x1:2 to 1.25e-007
+Limiting fall time of source v:x1:2 to 1.25e-007
+Limiting rise time of source v:x1:1 to 2.5e-007
+Limiting fall time of source v:x1:1 to 2.5e-007
+Direct Newton iteration for .op point succeeded.
+
+Date: Thu Apr 01 15:42:28 2021
+Total elapsed time: 15.761 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 843919
+traniter = 843916
+tranpoints = 421955
+accept = 421889
+rejected = 66
+matrix size = 16
+fillins = 0
+solver = Normal
+Matrix Compiler1: 268 bytes object code size  0.8/0.7/[0.7]
+Matrix Compiler2: 670 bytes object code size  0.7/0.8/[0.7]
+

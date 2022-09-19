@@ -1,0 +1,28 @@
+* Y:\Boulot\Enseignements\M1_ESET_STAE_EMEAE2C1\TPs\Kit_etudiant_2019\source_signal_random_NRZ2_test.asc
+R3 I 0 10k
+R4 Q 0 10k
+R1 Clock 0 10k
+XX1 0 Clock Q I source_signal_random_nrz2
+
+* block symbol definitions
+.subckt source_signal_random_nrz2 Gnd Clock Q I
+B1 Serial_in Gnd V=(ampl)*(rand(time*{br}) >=.5)
+R1 Serial_in Gnd 10k
+V1 Clock Gnd PULSE(0 {ampl} {shiftClk} 0 0 {(1/(2*br))-tr} {1/br})
+R2 Clock Gnd 10k
+A1 Qa 0 RClock 0 Gnd 0 I 0 DFLOP Vhigh={ampl} Trise={tr2} Td={tr2}
+A2 Qb 0 RClock 0 Gnd 0 Q 0 DFLOP Vhigh={ampl} Trise={tr2} Td={tr2}
+A3 Serial_in 0 Clock Gnd Gnd 0 Qa 0 DFLOP Vhigh={ampl} Trise={tr2} Td={tr2}
+A4 Qa 0 Clock Gnd Gnd 0 Qb 0 DFLOP Vhigh={ampl} Trise={tr2} Td={tr2}
+R3 I Gnd 10k
+R4 Q Gnd 10k
+V2 RClock Gnd PULSE(0 {ampl} {shiftRClk} 0 0 {1/(4*br)} {2/br})
+R5 RClock Gnd 10k
+.param ampl=3.3
+.param tr=0.1n tr2=10n shiftClk=1/(4*br) shiftRClk=3/(2*br)
+.ends source_signal_random_nrz2
+
+.param br=200k
+.tran 0 200u 0 100p
+.backanno
+.end
